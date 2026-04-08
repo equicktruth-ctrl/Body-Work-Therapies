@@ -1016,6 +1016,8 @@ ul {
   .approach-img {
     min-height: 260px;
     height: 260px;
+    width: 100%;
+    object-fit: cover;
   }
 
   .about-home-text,
