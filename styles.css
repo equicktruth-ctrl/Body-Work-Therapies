@@ -390,11 +390,17 @@ ul {
 .about-full-img {
   overflow: hidden;
 }
+.about-full-img {
+  background-color: #f8f6f2; /* or match your site color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .about-full-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .about-full-text.sage-box {
